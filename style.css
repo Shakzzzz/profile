@@ -17,6 +17,7 @@ body{
   font-weight: 100;
   line-height: 50px;
   background-image: url(./images/background-image-galaxy.gif);
+  border-radius: 30%;
 }
 
 .card-white{
@@ -62,22 +63,30 @@ p{
 .btn-hover{
       color: white;
       border: none;
-      padding: 10px 20px;
+      padding: 5px 15px;
       text-align: center;
       display: inline-block;
-      font-size: 16px;
-      margin: 10px 2px;
+      font-size: 15px;
+      margin: 5px 2px;
       cursor: pointer;
       border-radius: 5px;
       background-color: lightslategray;
+      font-size: 15px;
+      text-decoration: none;
+
 }
 
 .btn-hover:hover{
-  text-decoration: none;
   background-color: #45a049;
 }
 
 .icon{
   font-size: 50px;
 
+}
+
+.btn-hover a{
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
 }
